@@ -27,12 +27,4 @@ Shape.prototype.getRGB = function() {
   return "rgb(0,0,0)";
 }
 
-var s = new Shape(4, "red");
-console.log("value: " + s.perimeter());
-console.log(s.draw());
-console.log(s.toString());
-console.log(s.getRGB());
-console.log(s.area());
-
-
-module.export = Shape;
+module.exports = Shape;

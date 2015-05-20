@@ -1,7 +1,7 @@
 var Shape = require("./shape");
 
-function Square(sides, color, sideLength) {
-  Shape.call(sides, color);
+function Square(sideLength, color) {
+  Shape.call(4, color);
   this.sideLength = sideLength;
 }
 
