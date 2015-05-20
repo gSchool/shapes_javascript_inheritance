@@ -22,4 +22,4 @@ The goal of this assignment is to understand inheritance in javascript.
 |* * *|
 -------
 ```
-Except the * should be in the color of the shape!
+The * should be in the color of the shape!
