@@ -12,7 +12,7 @@ The goal of this assignment is to understand inheritance in javascript.
 
 ## Bonus
 
-* Implement an eqilateral triangle object. Have it inherit from shape as well.
+* Implement an equilateral triangle object. Have it inherit from shape as well.
 * When you implement draw, try to figure out how to print the shape to the screen including color.  You can change the color of a symbol like ```*``` and fill the entire shape with those symbols.  For example
 
 ```
