@@ -11,7 +11,7 @@ Shape.prototype.perimeter = function() {
   return 0;
 };
 
-// Should return an assci version of the shape.  Since the shape
+// Should return an ascii version of the shape.  Since the shape
 // doesn't make sense here, we return a string.
 Shape.prototype.draw = function() {
    return "A shape with " + this.sides + " sides";

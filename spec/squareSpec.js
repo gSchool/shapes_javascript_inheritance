@@ -8,14 +8,14 @@ describe("Square", function() {
   });
 
   describe("Area", function() {
-    it("should be 4 for a square", function() {
+    it("should be 4 for a square with side length 2", function() {
       expect(square.area()).toEqual(4);
     });
   });
 
   describe("Perimeter", function() {
     it("should be 8 for a square with side length 2", function() {
-      expect(square.area()).toEqual(8);
+      expect(square.perimeter()).toEqual(8);
     });
   });
 

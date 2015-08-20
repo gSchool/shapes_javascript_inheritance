@@ -4,7 +4,7 @@ var rectangle;
 
 describe("Rectangle", function() {
   beforeEach(function() {
-    rectangle = new Rectangle(4,6, "blue");
+    rectangle = new Rectangle(4, 6, "blue");
   });
 
   describe("Area", function() {
@@ -15,7 +15,7 @@ describe("Rectangle", function() {
 
   describe("Perimeter", function() {
     it("should be 20 for a square with side lengths 4,6", function() {
-      expect(rectangle.area()).toEqual(20);
+      expect(rectangle.perimeter()).toEqual(20);
     });
   });
 

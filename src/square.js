@@ -1,11 +1,10 @@
-var Shape = require("./shape");
+var Rectangle = require("./rectangle");
 
 function Square(sideLength, color) {
-  Shape.call(4, color);
-  this.sideLength = sideLength;
 }
 
-// TODO: Implement area, perimeter, draw and toString for Square.
-// DO NOT reimplement getRGB.  That should only have to be done once.
+// TODO: Implement toString for Square.
+// DO NOT reimplement getRGB, or area, perimeter, or draw. Those should all be defined
+// further up the inheritance chain.
 
 module.exports = Square;
